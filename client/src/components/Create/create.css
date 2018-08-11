@@ -1,0 +1,209 @@
+.createContainer {
+  flex: 1;
+  max-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+
+.createHeader {
+  font-size: 1.5em;
+  color: #00FFE1;
+  text-shadow: 1px 1px 0px #C1E5DF;
+  margin: 20px 0;
+}
+
+.synthTypes {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.synth {
+  width: 60px;
+  padding: 10px;
+  margin: 0;
+  background: #00FFE1;
+  text-align: center;
+  border: 2px solid #444;
+  cursor: pointer;
+}
+
+.octaveContainer {
+  list-style: none;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.octaveLabel {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00FFE1;
+  border: 2px solid #444;
+  padding: 0 7px;
+}
+
+.octave {
+  width: 30px;
+  height: 30px;
+  background: #00FFE1;
+  border: 2px solid #444;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.keyboardContainer {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.note {
+  cursor: pointer;
+}
+
+.white {
+  width: 45px;
+  height: 140px;
+  padding-bottom: 5px;
+  background: #eee;
+  border: 1px solid #222;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.white:hover {
+  background: #DDD;
+  transition: 0.1s;
+}
+
+.white:active {
+  background: #00FFE1;
+}
+
+.black {
+  width: 24px;
+  height: 80px;
+  color: #eee;
+  background: #222;
+  margin: 0 -12px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 5px;
+}
+
+.black:hover {
+  background: #444;
+  transition: 0.1s;
+}
+
+.black:active {
+  background: #DB0088;
+}
+
+.selectedNotes {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notesLabel {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00FFE1;
+  border: 2px solid #444;
+  padding: 0 7px;
+}
+
+.noteComponent {
+  width: 30px;
+  height: 30px;
+  background: #00FFE1;
+  border: 2px solid #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.removeNote {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00FFE1;
+  border: 2px solid #444;
+  padding: 0 7px;
+  cursor: pointer;
+}
+
+.removeNote:hover {
+  background: #DB0088;
+  color: #00FFE1;
+  transition: 0.1s;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleLabel {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00FFE1;
+  border: 2px solid #444;
+  padding: 0 7px;
+}
+
+.titleContainer input {
+  border-style: none;
+  padding: 0;
+  padding-left: 5px;
+  height: 30px;
+  width: 250px;
+}
+
+.submit {
+  width: 200px;
+  background: #00FFE1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.submit:hover {
+  background: #DB0088;
+  color: #00FFE1;
+  transition: 0.1s;
+}
+
+.selected {
+  background: #DB0088;
+  color: #C1E5DF;
+  border: 2px solid #C1E5DF;
+}

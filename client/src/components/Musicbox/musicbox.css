@@ -1,0 +1,58 @@
+.postWrapper {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #00B5A0;
+}
+
+.postInfo {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #FFF;
+  text-shadow: 1px 1px 0px #DB0088;
+  text-transform: uppercase;
+}
+
+.clear {
+  background: #472347;
+  color: #00FFE1;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clear:hover {
+  background: #DB0088;
+  transition: 0.2s;
+}
+
+.cycle {
+  color: #472347;
+  margin: 10px 20px;
+}
+
+.cycle i:hover {
+  color: #DB0088;
+  text-shadow: 1px 1px 0px #00FFE1;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.canvasWrapper {
+  background: #2A2C2B;
+  flex: 1;
+  width: 100%;
+  resize: both;
+}

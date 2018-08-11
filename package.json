@@ -1,0 +1,23 @@
+{
+  "name": "synthonium-v2",
+  "version": "1.0.0",
+  "description": "Social Media Platform Designed to Create Randomized Songs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Aarick-F",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.1",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.7",
+    "nodemon": "^1.18.3",
+    "validator": "^10.5.0"
+  }
+}
