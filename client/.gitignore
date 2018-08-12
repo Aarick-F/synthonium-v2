@@ -1,6 +1,6 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
-src/Auth/auth0-variables.js
+auth0-variables.js
 
 # dependencies
 /node_modules
