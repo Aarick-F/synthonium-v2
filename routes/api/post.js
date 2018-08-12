@@ -25,10 +25,10 @@ router.get("/", (req, res) => {
     .catch(err => res.status(404).json(err));
 });
 
-// @route   POST api/post
+// @route   POST api/post/create
 // @desc    Creates a post
 // @access  Hidden
-router.post("/", (req, res) => {
+router.post("/create", (req, res) => {
   const {errors, isValid} = validatePostInput(req.body);
 
   if(!isValid) {

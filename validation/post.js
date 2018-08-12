@@ -6,8 +6,8 @@ module.exports = function validatePostInput(data) {
 
   data.title = !isEmpty(data.title) ? data.title : "";
 
-  if(!Validator.isLength(data.title, {min: 5, max: 42})) {
-    errors.text = "Post title must be between 5 and 42 characters";
+  if(!Validator.isLength(data.title, {min: 1, max: 40})) {
+    errors.text = "Post title must be between 1 and 40 characters";
   }
 
   if(Validator.isEmpty(data.title)) {

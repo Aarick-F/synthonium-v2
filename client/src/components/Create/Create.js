@@ -76,13 +76,13 @@ class Create extends Component {
       username: this.state.profile.nickname,
     }
 
-    axios.post("/api/post", newPost)
+    axios.post("/api/post/create", newPost)
       .then(res => {
         this.setState({
           redirect: true
         })
       })
-      .catch(err => console.log(err));
+      .catch(err => console.log(err.response));
   }
 
   onChange(e) {
