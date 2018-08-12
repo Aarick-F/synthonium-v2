@@ -207,3 +207,7 @@
   color: #C1E5DF;
   border: 2px solid #C1E5DF;
 }
+
+a:hover {
+  color: #DB0088;
+}

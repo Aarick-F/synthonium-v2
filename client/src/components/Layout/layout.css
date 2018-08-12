@@ -40,7 +40,7 @@
 .footer {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background: #00FFE1;
   color: #472347;
@@ -50,4 +50,8 @@
   font-size: 1.25em;
   padding: 15px 0;
   text-shadow: 1px 1px 0px #444;
+}
+
+a:hover {
+  color: #DB0088;
 }
