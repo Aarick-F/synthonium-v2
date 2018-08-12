@@ -3,3 +3,5 @@ export const AUTH_CONFIG = {
   clientId: 'Q2O3PpQ5HJ0F9zXPniQhARAsnPIp8Bh6',
   callbackUrl: 'http://localhost:3000/callback'
 }
+
+//CHANGES WERE MADE??
